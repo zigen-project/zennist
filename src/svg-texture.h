@@ -6,12 +6,12 @@
 
 namespace zennist {
 
-class PngTexture final : public Texture
+class SvgTexture final : public Texture
 {
  public:
-  DISABLE_MOVE_AND_COPY(PngTexture);
-  PngTexture(zukou::System *system);
-  ~PngTexture();
+  DISABLE_MOVE_AND_COPY(SvgTexture);
+  SvgTexture(zukou::System *system);
+  ~SvgTexture();
 
   bool Load(const char *filename);
 
